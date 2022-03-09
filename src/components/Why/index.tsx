@@ -3,8 +3,8 @@ export default function Example() {
     <div className="py-16 bg-white lg:py-20">
       <div className="px-4 mx-auto max-w-xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <h2 className="sr-only">Here&apos;s how it works</h2>
-        <h2 className="mb-12 text-4xl font-bold text-gray-700">
-          Here&apos;s how it works
+        <h2 className="mb-4 text-3xl font-bold text-center text-gray-700 lg:text-4xl lg:text-left">
+          Why use PasaJob?
         </h2>
         <dl className="space-y-10 text-center lg:grid lg:grid-cols-4 lg:gap-8 lg:space-y-0">
           <div className="p-8 rounded-lg border border-gray-200">

@@ -2,28 +2,28 @@ import React from 'react';
 
 const index = () => {
   return (
-    <div className="py-16 lg:py-20">
+    <div className="py-16 px-4 lg:py-20">
       <div className="lg:overflow-hidden">
         <div className="mx-auto max-w-7xl lg:px-8">
-          <h2 className="mb-4 text-4xl font-bold text-gray-700">
+          <h2 className="mb-4 text-3xl font-bold text-center text-gray-700 lg:text-4xl lg:text-left">
             Here&apos;s how it works
           </h2>
-          <div className="lg:grid lg:grid-cols-2 lg:gap-24">
-            <div className="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
+          <div className="items-center lg:grid lg:grid-cols-2 lg:gap-24">
+            <div className="mt-12 lg:relative lg:m-0">
               <div className="px-4 mx-auto mb-12 max-w-md sm:px-6 sm:max-w-2xl lg:px-0 lg:max-w-none">
                 <img
-                  className="w-full min-h-[420px]"
+                  className="mx-auto w-full max-w-[420px] lg:max-w-none lg:min-h-[420px]"
                   src="/assets/images/for-job-seekers.png"
                   alt=""
                 />
               </div>
               <div className="px-4 sm:px-8">
-                <h1 className="text-2xl font-medium tracking-tight text-gray-900  lg:text-3xl">
+                <h1 className="text-2xl font-medium tracking-tight text-center text-gray-900  lg:text-3xl">
                   <span className="block xl:inline">
                     For Job Seekers and Referrers
                   </span>{' '}
                 </h1>
-                <p className="mx-auto mt-3 max-w-md text-lg text-gray-700 md:mt-5 md:max-w-3xl">
+                <p className="mx-auto mt-3 max-w-md text-lg text-center text-gray-700 md:mt-5 md:max-w-3xl">
                   Find ways to earn, whether you’re looking for new employment
                   opportunities or simply an alternative source of income. Apply
                   to jobs, or refer qualified contacts and earn if they get
@@ -55,20 +55,20 @@ const index = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
+            <div className="mt-12 lg:relative lg:m-0">
               <div className="px-4 mx-auto mb-12 max-w-md sm:px-6 sm:max-w-2xl lg:px-0 lg:max-w-none">
                 <img
-                  className="w-full min-h-[420px]"
+                  className="mx-auto w-full max-w-[420px] lg:max-w-none lg:min-h-[420px]"
                   src="/assets/images/for-employers.png"
                   alt=""
                 />
               </div>
               <div className="px-4 sm:px-8">
-                <h1 className="text-2xl font-medium tracking-tight text-gray-900  lg:text-3xl">
+                <h1 className="text-2xl font-medium tracking-tight text-center text-gray-900  lg:text-3xl">
                   <span className="block xl:inline">For Employers</span>{' '}
                 </h1>
 
-                <p className="mx-auto mt-3 max-w-md text-lg text-gray-700 md:mt-5 md:max-w-3xl">
+                <p className="mx-auto mt-3 max-w-md text-lg text-center text-gray-700 md:mt-5 md:max-w-3xl">
                   Challenge your current recruitment process by allowing
                   professionals, both within and outside your company, to refer
                   to your open roles. Hire faster and more effectively with us.

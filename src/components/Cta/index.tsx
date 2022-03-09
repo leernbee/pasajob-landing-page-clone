@@ -2,7 +2,7 @@ export default function Example() {
   return (
     <div className="z-10 py-16 bg-white border-t-2 border-gray-50 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl text-center sm:px-6 lg:px-8">
-        <h2 className="inline text-3xl font-extrabold tracking-tight text-gray-800 sm:block sm:text-4xl">
+        <h2 className="inline text-3xl font-bold tracking-tight text-gray-800 sm:block lg:text-4xl">
           Ready to apply and refer?
         </h2>
 

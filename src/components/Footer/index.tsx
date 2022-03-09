@@ -45,7 +45,7 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-white " aria-labelledby="footer-heading">
+    <footer className="bg-white border-t" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -53,7 +53,7 @@ export default function Example() {
         <div className="pb-8 lg:gap-2 xl:grid xl:grid-cols-6">
           <div className="grid grid-cols-2 gap-2 lg:col-span-4">
             <div className="md:grid md:grid-cols-2 lg:gap-2">
-              <div>
+              <div className="mb-4">
                 <svg
                   className="w-[150px] max-h-[30px]"
                   id="logoMasthead"
@@ -88,7 +88,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-800 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -109,19 +109,19 @@ export default function Example() {
             </div>
           </div>
           <div className="mt-12 lg:col-span-2 xl:mt-0">
-            <div className="flex space-x-6 md:order-2">
+            <div className="flex justify-center space-x-6 md:order-2 lg:justify-end">
               {navigation.social.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-400 hover:text-gray-500"
+                  className="text-gray-800 hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="w-6 h-6" aria-hidden="true" />
                 </a>
               ))}
             </div>
-            <div className="flex mt-8">
+            <div className="flex justify-center mt-8 lg:justify-end">
               <img
                 className="mr-4 max-h-[40px]"
                 src="/assets/images/download-from-app-store.svg"
@@ -136,26 +136,20 @@ export default function Example() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 md:flex md:justify-between md:items-center">
+        <div className="flex flex-col pb-8 mt-8 border-t border-gray-200 md:justify-between md:items-center lg:flex-row">
           <nav className="flex flex-wrap justify-center" aria-label="Footer">
             <div className="py-2 px-5">
-              <a
-                href="#"
-                className="text-base text-gray-500 hover:text-gray-900"
-              >
+              <a href="#" className="text-sm text-gray-700 hover:text-gray-900">
                 Terms of Use
               </a>
             </div>
             <div className="py-2 px-5">
-              <a
-                href="#"
-                className="text-base text-gray-500 hover:text-gray-900"
-              >
+              <a href="#" className="text-sm text-gray-700 hover:text-gray-900">
                 Privacy Policy
               </a>
             </div>
           </nav>
-          <p className="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
+          <p className="px-4 text-sm text-center text-gray-800 md:order-1 md:mt-0 lg:px-0 lg:mt-8 lg:text-left">
             Copyright © 2022 PasaJob. All Rights Reserved. Website by Studio
             After Six and Big Squid Creatives.
           </p>

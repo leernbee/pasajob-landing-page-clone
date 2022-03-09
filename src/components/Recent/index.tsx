@@ -64,13 +64,13 @@ const settings = {
 
 const index = () => {
   return (
-    <section className="py-16 bg-gray-50 lg:py-20">
-      <div className="px-4 mx-auto max-w-7xl  sm:px-6">
-        <div className="relative py-6">
-          <h2 className="mb-4 text-4xl font-bold text-gray-700">
+    <section className="py-16  bg-gray-50 lg:py-20">
+      <div className="px-4 mx-auto max-w-7xl ">
+        <div className="relative">
+          <h2 className="mb-4 text-3xl font-bold text-center text-gray-700 lg:text-4xl lg:text-left">
             Recent job posts
           </h2>
-          <div className="relative">
+          <div className="relative px-4">
             {' '}
             <Slider {...settings}>
               <div className="relative">

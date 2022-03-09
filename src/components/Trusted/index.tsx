@@ -64,7 +64,7 @@ const settings = {
 
 const index = () => {
   return (
-    <section className="bg-gray-50 ">
+    <section className="px-4 bg-gray-50">
       <div className="py-16 px-4 mx-auto max-w-7xl border-t lg:py-20">
         <div className=" mb-8 text-base font-medium text-center text-gray-900 capitalize">
           Trusted By
